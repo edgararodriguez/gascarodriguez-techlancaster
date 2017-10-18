@@ -112,8 +112,14 @@ nav:hover ul {
     font-family: 'Lato';
     font-weight: 900; }
 
-.footer {
+.footer1 {
   width: 100%;
   padding: 35px 0; }
+  .footer1 h3 {
+    text-align: center;
+    size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #6f8998; }
 
 /*# sourceMappingURL=style.css.map */
