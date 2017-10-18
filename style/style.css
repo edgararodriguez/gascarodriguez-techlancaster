@@ -99,4 +99,21 @@ nav:hover ul {
     nav:hover ul li a:hover {
       background-color: #17202d; }
 
+.s1 {
+  background-image: url("../images/homepage.jpg");
+  background-position: 0 -50px;
+  height: 350px; }
+  .s1 h1 {
+    color: white;
+    padding: 108px 30% 0 27px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-size: 36px;
+    font-family: 'Lato';
+    font-weight: 900; }
+
+.footer {
+  width: 100%;
+  padding: 35px 0; }
+
 /*# sourceMappingURL=style.css.map */
