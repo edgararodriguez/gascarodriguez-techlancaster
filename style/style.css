@@ -45,4 +45,58 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.header {
+  height: 60px;
+  width: 100%;
+  background-color: #ffab00; }
+  .header .logo {
+    display: inline-block;
+    color: text-color;
+    size: 25px;
+    font-family: "Lato",sans-serif;
+    margin: 20px 0 0 25px;
+    text-decoration: none;
+    letter-spacing: 2.5px; }
+  .header .tech {
+    font-weight: 100;
+    display: inline; }
+  .header .lancaster {
+    font-weight: 900;
+    display: inline; }
+
+nav {
+  float: right;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px; }
+  nav img {
+    height: 100%;
+    width: 100%; }
+  nav ul {
+    display: none; }
+
+nav:hover ul {
+  display: block;
+  position: relative;
+  background-color: #ffab00;
+  width: 100px;
+  border: 1px solid black;
+  right: 60px;
+  top: 10px;
+  border-radius: 10px; }
+  nav:hover ul li {
+    border-bottom: 2px solid #17202d;
+    display: block;
+    height: 50px; }
+    nav:hover ul li a {
+      color: #17201d;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      height: 100%;
+      width: 100%; }
+    nav:hover ul li a:hover {
+      background-color: #17202d; }
+
 /*# sourceMappingURL=style.css.map */
