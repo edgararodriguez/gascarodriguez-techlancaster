@@ -211,4 +211,64 @@ a {
   font-weight: 600;
   text-decoration: none; }
 
+.corevalues {
+  padding: 55px 20px;
+  color: #021d2c;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  font-family: "Droid Serif"; }
+  .corevalues h3 {
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    color: #4e1c07; }
+  .corevalues .paragraph_break {
+    padding-top: 15px; }
+
+h4 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-style: italic; }
+
+.greybox {
+  background-color: #efe9d9;
+  padding: 55px 20px;
+  color: #021d2c;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  font-family: "Droid Serif"; }
+  .greybox h3 {
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    color: #4e1c07; }
+  .greybox .paragraph_break {
+    padding-top: 15px; }
+
+.normal_sections {
+  padding: 55px 20px;
+  color: #021d2c;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  font-family: "Droid Serif"; }
+  .normal_sections h3 {
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    color: #4e1c07; }
+  .normal_sections .paragraph_break {
+    padding-top: 15px; }
+
+ol {
+  list-style: decimal;
+  list-style-position: inside;
+  line-height: 28px; }
+  ol .end-of-list {
+    font-weight: 700;
+    font-style: italic; }
+
 /*# sourceMappingURL=style.css.map */
