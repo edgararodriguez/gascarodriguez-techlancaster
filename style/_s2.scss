@@ -1,0 +1,67 @@
+//mobile//
+.s2{
+  padding: 0 10px;
+  background-color: #ffc400;
+  article{
+    width: 90%;
+    padding: 35px 5%;
+    p{
+      margin-top: 15px;
+      color: #021d2c;
+      font-size: 15px;
+      line-height: 23px;
+      letter-spacing: 1px;
+      font-family: "Droid Serif";
+    }
+    p:first-of-type{
+      margin-top: 0px;
+      font-size: 18px;
+      line-height: 27px;
+      letter-spacing: 1px;
+      color: #4e1c07;
+      font-family: "Droid Serif";
+      font-family: 600;
+    }
+    a{
+      margin: 15px auto 0;
+      color: #efe9d8;
+      text-decoration: none;
+      font-size: 20px;
+      letter-spacing: 1px;
+      font-style: "Droid Serif";
+      font-weight: 600;
+      display: block;
+      line-height: 55px;
+      text-align: center;
+      background-color: #eb503c;
+      width: 80%;
+      height: 55px;
+    }
+    h4{
+      color: #efe9d8;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 1px;
+      font-weight: 600;
+    }
+    div{
+      width: 80%;
+      padding: 0 5% 34px;
+    }
+    h3{
+      padding: 7px 0;
+      color: #4c1a14;
+      font-size: 20px;
+      line-height: 25px;
+      letter-spacing: 1px;
+      font-family: "Droid Serif";
+      font-weight: 600;
+    }
+}
+//Line that seperates upcoming meetup//
+.bar{
+  width: 90%;
+  padding: 34px 5%;
+  border-top: 2px solid #eb503c;
+}
+}
