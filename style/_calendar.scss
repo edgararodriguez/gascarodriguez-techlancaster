@@ -1,0 +1,67 @@
+//mobile//
+.schedule{
+  padding: 55px 20px;
+color: #021d2c;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.8px;
+font-family: "Droid Serif";
+  h3 {
+      font-size: 21px;
+      font-weight: 600;
+      letter-spacing: 1.1px;
+      color: #4e1c07;
+  }
+  .paragraph_break {
+      padding-top: 15px;
+  }
+}
+.event{
+  padding-bottom: 40px;
+  margin: auto;
+}
+.event:last-of-type{
+  padding-bottom: 0px;
+}
+//Get Involved section with color//
+.get_involved{
+  background-color: #eb503c;
+  padding: 55px 20px;
+  color: #021d2c;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  font-family: "Droid Serif";
+  h3 {
+    color:#efe9d8;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  .paragraph_break {
+      padding-top: 15px;
+  }
+  }
+  p{
+    color:#efe9d8;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-family: "Lato";
+  }
+  a{
+    width: 125px;
+          display: block;
+          padding-top: 25px;
+          text-decoration: none;
+          color: #efe9d8;
+          font-size: 20px;
+          line-height: 27px;
+          letter-spacing: 1px;
+          font-family: "Lato";
+        }
+        .start_meetup{
+          @extend .get_involved;
+          background-color: #a13729;
+        }

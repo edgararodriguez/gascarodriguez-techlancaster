@@ -51,10 +51,10 @@ table {
   background-color: #ffab00; }
   .header .logo {
     display: inline-block;
-    color: text-color;
-    size: 25px;
+    color: blue;
+    font-size: 25px;
     font-family: "Lato",sans-serif;
-    margin: 20px 0 0 25px;
+    line-height: 60px;
     text-decoration: none;
     letter-spacing: 2.5px; }
   .header .tech {
@@ -225,12 +225,13 @@ a {
     color: #4e1c07; }
   .corevalues .paragraph_break {
     padding-top: 15px; }
-
-h4 {
-  font-size: 18px;
-  letter-spacing: 1px;
-  font-weight: 600;
-  font-style: italic; }
+  .corevalues h4 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-style: italic; }
+  .corevalues nav {
+    display: none; }
 
 .greybox {
   background-color: #efe9d9;
@@ -270,5 +271,65 @@ ol {
   ol .end-of-list {
     font-weight: 700;
     font-style: italic; }
+
+.schedule {
+  padding: 55px 20px;
+  color: #021d2c;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  font-family: "Droid Serif"; }
+  .schedule h3 {
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    color: #4e1c07; }
+  .schedule .paragraph_break {
+    padding-top: 15px; }
+
+.event {
+  padding-bottom: 40px;
+  margin: auto; }
+
+.event:last-of-type {
+  padding-bottom: 0px; }
+
+.get_involved, .start_meetup {
+  background-color: #eb503c;
+  padding: 55px 20px;
+  color: #021d2c;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  font-family: "Droid Serif"; }
+  .get_involved h3, .start_meetup h3 {
+    color: #efe9d8;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-weight: 600; }
+  .get_involved .paragraph_break, .start_meetup .paragraph_break {
+    padding-top: 15px; }
+
+p {
+  color: #efe9d8;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  font-family: "Lato"; }
+
+a {
+  width: 125px;
+  display: block;
+  padding-top: 25px;
+  text-decoration: none;
+  color: #efe9d8;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 1px;
+  font-family: "Lato"; }
+
+.start_meetup {
+  background-color: #a13729; }
 
 /*# sourceMappingURL=style.css.map */
