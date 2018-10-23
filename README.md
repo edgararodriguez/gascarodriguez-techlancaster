@@ -1,1 +1,0 @@
-# gascarodriguez-techlancaster
